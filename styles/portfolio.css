@@ -1,27 +1,79 @@
 :root {
   --main-bgcolor: #cfcec8;
+  --secondarycolor: #2b331c;
+  --heading-fontfamily: "Unbounded", cursive;
+  --default-fontfamily: "Poppins", sans-serif;
 }
-
-h1 {
-  font-size: 60px;
-  font-family: "Unbounded", cursive;
+body {
+  max-width: auto;
+  font-family: var(--default-fontfamily);
 }
-
 .hero {
-  padding: 150px 20px;
+  padding-top: 150px;
   text-align: center;
   background-color: var(--main-bgcolor);
   /*  background-image: url("../img/0bf67a139449057.62cacc99e3346.png"); */
 }
+.hero h1 {
+  font-size: 60px;
+  font-family: var(--heading-fontfamily);
+}
 .hero p {
   font-size: 25px;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin: 0;
 }
 .hero h2 {
-  font-family: "Unbounded", cursive;
+  font-family: var(--heading-fontfamily);
   font-size: 20px;
   font-weight: 100;
   line-height: 2;
+}
+.btn-branding {
+  background: var(--secondarycolor);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 60px;
+}
+.btn-branding:hover {
+  background: var(--secondarycolor);
+  color: white;
+  box-shadow: 0px 0px 10px 4px white;
+}
+
+.btn-branding-out {
+  color: var(--secondarycolor);
+  border: 1px solid var(--secondarycolor);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-out:hover {
+  box-shadow: 0px 0px 5px var(--secondarycolor);
+}
+.sample-site-1 h2 {
+  font-family: var(--heading-fontfamily);
+  font-size: 30px;
+}
+.project-desription {
+  padding: 0px 50px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.4;
+  }
+  .sample-site-1 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn-branding-out {
+    display: block;
+    margin: 0 auto;
+  }
 }
