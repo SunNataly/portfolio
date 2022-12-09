@@ -8,16 +8,17 @@ body {
   max-width: auto;
   font-family: var(--default-fontfamily);
 }
+h1 {
+  font-size: 60px;
+  font-family: var(--heading-fontfamily);
+}
 .hero {
   padding-top: 150px;
   text-align: center;
   background-color: var(--main-bgcolor);
   /*  background-image: url("../img/0bf67a139449057.62cacc99e3346.png"); */
 }
-.hero h1 {
-  font-size: 60px;
-  font-family: var(--heading-fontfamily);
-}
+
 .hero p {
   font-size: 25px;
   font-weight: bold;
@@ -36,7 +37,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  margin: 60px;
+  margin: 40px;
 }
 .btn-branding:hover {
   background: var(--secondarycolor);
@@ -62,7 +63,24 @@ body {
 .project-desription {
   padding: 0px 50px;
 }
-
+.about-page {
+  padding: 50px 100px;
+}
+.about-page h1 {
+  font-size: 40px;
+}
+.about-page p {
+  font-size: 15px;
+}
+.about-page .btn-branding {
+  margin: 0;
+}
+.photo {
+  max-width: 400px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 40px;
@@ -75,5 +93,13 @@ body {
   .btn-branding-out {
     display: block;
     margin: 0 auto;
+  }
+  .about-page {
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 992px) {
+  .about-page {
+    text-align: center;
   }
 }
