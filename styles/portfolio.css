@@ -1,10 +1,27 @@
-h1 {
-  font-size: 40px;
-
-  font-family: "Unbounded";
-  margin: 140px;
-  margin-left: 80px;
+:root {
+  --main-bgcolor: #cfcec8;
 }
-body {
-  background-image: url("../img/09e046139449057.625e2cda3eb91.png");
+
+h1 {
+  font-size: 60px;
+  font-family: "Unbounded", cursive;
+}
+
+.hero {
+  padding: 150px 20px;
+  text-align: center;
+  background-color: var(--main-bgcolor);
+  /*  background-image: url("../img/0bf67a139449057.62cacc99e3346.png"); */
+}
+.hero p {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-family: "Unbounded", cursive;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2;
 }
