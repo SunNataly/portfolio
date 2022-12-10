@@ -7,6 +7,7 @@
 body {
   max-width: auto;
   font-family: var(--default-fontfamily);
+  transition: all 150ms ease-in-out;
 }
 h1 {
   font-size: 60px;
@@ -35,6 +36,30 @@ h3 {
   font-size: 20px;
   font-weight: 900;
   line-height: 1.2;
+}
+nav li {
+  display: inline;
+  color: var(--main-bgcolor);
+  margin-right: 20px;
+  line-height: 76px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-bgcolor);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--main-bgcolor);
+  text-decoration: overline;
+}
+.navibar {
+  background: var(--secondarycolor);
+  padding-right: 30px;
+}
+.logo {
+  max-width: 100px;
+  margin: 30px 60px;
 }
 
 .btn-branding {
@@ -101,6 +126,9 @@ h3 {
   }
   .content-conteiner {
     padding: 50px 50px;
+  }
+  .logo {
+    margin-left: 30px;
   }
 }
 @media (max-width: 992px) {
