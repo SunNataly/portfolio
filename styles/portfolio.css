@@ -24,12 +24,19 @@ h1 {
   font-weight: bold;
   margin: 0;
 }
-.hero h2 {
+h2 {
   font-family: var(--heading-fontfamily);
   font-size: 20px;
   font-weight: 100;
   line-height: 2;
 }
+h3 {
+  font-family: var(--heading-fontfamily);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
 .btn-branding {
   background: var(--secondarycolor);
   border-radius: 4px;
@@ -63,26 +70,24 @@ h1 {
 .project-desription {
   padding: 0px 50px;
 }
-.about-page {
+.content-conteiner {
   padding: 50px 100px;
 }
-.about-page h1 {
-  font-size: 40px;
-}
-.about-page p {
+
+.content-conteiner p {
   font-size: 15px;
 }
-.about-page .btn-branding {
+.content-conteiner .btn-branding {
   margin: 0;
 }
 .photo {
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 15px;
   display: block;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .hero h1 {
+  h1 {
     font-size: 40px;
     line-height: 1.4;
   }
@@ -94,12 +99,12 @@ h1 {
     display: block;
     margin: 0 auto;
   }
-  .about-page {
+  .content-conteiner {
     padding: 50px 50px;
   }
 }
 @media (max-width: 992px) {
-  .about-page {
+  .content-conteiner {
     text-align: center;
   }
 }
