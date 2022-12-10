@@ -113,9 +113,9 @@ nav li.active a {
 
 .contact-box {
   max-width: 600px;
-  border: 1px solid;
+
   background-color: var(--main-bgcolor);
-  border-color: var(--secondarycolor);
+
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
