@@ -104,6 +104,7 @@ nav li.active a {
   margin: 0;
 }
 .photo {
+  max-width: 100%;
   border-radius: 15px;
   display: block;
   margin: 0 auto;
@@ -124,17 +125,17 @@ footer {
 footer .email-link {
   text-decoration: none;
   color: var(--main-bgcolor);
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 25px;
 }
 footer .social-links a {
   margin: 24px;
   color: var(--main-bgcolor);
-  font-size: 20px;
+  font-size: 25px;
 }
 footer .email-link:hover,
 footer .social-links a:hover {
-  font-size: 25px;
+  transform: scale(1.2);
   transition: all 150ms ease-in-out;
 }
 @media (max-width: 768px) {
