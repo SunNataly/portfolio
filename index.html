@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Nata Sushak - frontent developer junior"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,23 +25,23 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <title>Frontend developer Nata Sushak</title>
   </head>
   <body>
     <nav class="d-flex navibar justify-content-between">
-      <img src="/img/She Codes.png" class="logo d-none d-sm-block" alt="" />
+      <img src="/img/She Codes.png" class="logo d-none d-sm-block" alt="logo" />
       <ul class="mb-0">
         <li class="active">
-          <a href="/index.html">Home</a>
+          <a href="/index.html" title="homepage">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a href="/about.html" title="aboutpage">About</a>
         </li>
         <li>
-          <a href="/work.html">Works</a>
+          <a href="/work.html" title="workspage">Works</a>
         </li>
         <li>
-          <a href="/contact.html">Contact</a>
+          <a href="/contact.html" title="contactpage">Contact</a>
         </li>
       </ul>
     </nav>
@@ -46,7 +50,11 @@
       <p>Hello friends, I am</p>
       <h1>Nata Sushak</h1>
       <h2>Frontend developer from Ukraine 🇺🇦</h2>
-      <a class="btn btn-branding" href="/about.html" role="button"
+      <a
+        class="btn btn-branding"
+        href="/about.html"
+        role="button"
+        title="Contact me"
         >Contact me
       </a>
     </div>
@@ -65,7 +73,12 @@
             the current location. Includes temperature, precipitation, humidity,
             wind speed. The forecast for the week ahead is updated.
           </p>
-          <a class="btn btn-branding-out mb-5" href="#" role="button"
+          <a
+            class="btn btn-branding-out mb-5"
+            href="https://weatherhomework5.netlify.app/"
+            role="button"
+            alt="weather project"
+            target="_blank"
             >Learn more</a
           >
         </div>
@@ -77,7 +90,9 @@
         <p class="text-muted">Let`s work togeather</p>
       </div>
       <div>
-        <a href="" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="contact page"
+          >Contact me</a
+        >
       </div>
     </div>
     <footer>
@@ -87,16 +102,27 @@
         >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="http://instagram.com" target="_blank">
+        <a
+          href="http://instagram.com"
+          target="_blank"
+          title="Instagram profile"
+        >
           <i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="http://facebook.com" target="_blank">
+        <a href="http://facebook.com" target="_blank" title="facebook profile">
           <i class="fa-brands fa-facebook"></i
         ></a>
-        <a href="https://github.com/SunNataly" target="_blank"
+        <a
+          href="https://github.com/SunNataly"
+          target="_blank"
+          title="github profile"
           ><i class="fa-brands fa-gitlab"></i
         ></a>
       </div>
+      <p class="text-center text-muted">
+        Coded by NataSushak,
+        <a href="https://github.com/SunNataly"> opensoursed</a>
+      </p>
     </footer>
   </body>
 </html>

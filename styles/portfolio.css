@@ -105,7 +105,7 @@ nav li.active a {
   margin: 0;
 }
 .photo {
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 15px;
   display: block;
   margin: 0 auto;
@@ -113,9 +113,7 @@ nav li.active a {
 
 .contact-box {
   max-width: 600px;
-
   background-color: var(--main-bgcolor);
-
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -123,6 +121,7 @@ nav li.active a {
 }
 footer {
   background-color: var(--secondarycolor);
+  padding-bottom: 3px;
 }
 footer .email-link {
   text-decoration: none;
